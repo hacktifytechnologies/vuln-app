@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the main objective of this challenge? | MCQ | Upload a PHP file | Discover hidden routes or endpoints through enumeration | Reset the DB manually | Create a Linux user | Discover hidden routes or endpoints through enumeration | 10
+Which ATT&CK technique is mapped here? | MCQ | Active Scanning | Web Shell | Brute Force | Command and Scripting Interpreter | Active Scanning | 10
+What source is especially useful for this challenge? | MCQ | Client-side JavaScript and application routes | System BIOS logs | Docker image digests only | APT history | Client-side JavaScript and application routes | 10
+What confirms challenge success? | MCQ | A hidden endpoint or route is identified and validated | The browser cache is cleared | A JWT is signed | The setup script stops | A hidden endpoint or route is identified and validated | 10
+Which application hosts this challenge? | MCQ | Juice Shop | DVWA | bWAPP | Jenkins | Juice Shop | 10

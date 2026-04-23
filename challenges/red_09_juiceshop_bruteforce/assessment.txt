@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the main goal of this challenge? | MCQ | Read XML files | Gain access by guessing or brute-forcing valid credentials | Upload a PHP shell | Trigger reflected XSS | Gain access by guessing or brute-forcing valid credentials | 10
+Which ATT&CK technique is mapped here? | MCQ | Brute Force | Valid Accounts | Web Shell | Data from Local System | Brute Force | 10
+What indicates the attack was successful? | MCQ | The browser closes | A valid authenticated session is established | The Docker image is re-tagged | The application switches ports | A valid authenticated session is established | 10
+What kind of password list should be used for this lab? | MCQ | A targeted and limited candidate list | A random list of binary data | Only UUID values | Only Linux usernames | A targeted and limited candidate list | 10
+Which application is used for this challenge? | MCQ | DVWA | bWAPP | Juice Shop | Mutillidae | Juice Shop | 10

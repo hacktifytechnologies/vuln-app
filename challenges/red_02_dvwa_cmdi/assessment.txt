@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+Which DVWA module is targeted in this challenge? | MCQ | File Upload | Command Injection | SQL Injection | Weak Session IDs | Command Injection | 10
+What is the goal of the exploit? | MCQ | Change the admin password | Read client-side JavaScript | Execute an OS command | Upload a shell through FTP | Execute an OS command | 10
+Which type of payload is commonly used here? | MCQ | XPath payload | JWT token | Command separator payload | CSRF auto-submit form | Command separator payload | 10
+What is the expected success indicator? | MCQ | Rendered JavaScript popup | Server command output appears in the response | Database table is deleted | Login page changes color | Server command output appears in the response | 10
+Which ATT&CK technique is mapped to this challenge? | MCQ | Brute Force | Command and Scripting Interpreter | Web Shell | Active Scanning | Command and Scripting Interpreter | 10

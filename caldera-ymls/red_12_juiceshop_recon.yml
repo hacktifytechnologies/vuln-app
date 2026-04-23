@@ -1,0 +1,17 @@
+- name: 'HACKTIFY: Setup Juice Shop Recon'
+  id: a3a4e353-e636-4fcb-8686-f77199a56377
+  description: >-
+    Deploys the Juice Shop Recon environment for the red team participant.
+  tactic: reconnaissance
+  technique_id: T1595
+  technique_name: 'Active Scanning'
+  singleton: true
+  repeatable: false
+  delete_payload: false
+  executors:
+    - name: sh
+      platform: linux
+      command: >
+        rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_12_juiceshop_recon && chmod +x setup.sh && bash setup.sh
+      cleanup: >
+        docker rm -f juiceshop-recon 2>/dev/null || true

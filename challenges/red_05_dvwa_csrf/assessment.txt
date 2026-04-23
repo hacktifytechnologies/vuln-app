@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the core security issue in this challenge? | MCQ | SQL Injection | Cross-Site Request Forgery | Remote File Inclusion | XXE | Cross-Site Request Forgery | 10
+What makes the attack possible? | MCQ | The browser sends the victim's valid session automatically | The server uses Python instead of PHP | The password is too short | The web server blocks JavaScript | The browser sends the victim's valid session automatically | 10
+What is the goal of the forged request? | MCQ | Run `id` on the server | Force an unauthorized state-changing action | Dump the database directly | Upload a reverse shell | Force an unauthorized state-changing action | 10
+Which ATT&CK technique is mapped here? | MCQ | Valid Accounts | Web Shell | Brute Force | Active Scanning | Valid Accounts | 10
+What should the participant confirm after exploitation? | MCQ | A new Docker image appears | The targeted application state changed as intended | The server switched ports | The repo was cloned | The targeted application state changed as intended | 10

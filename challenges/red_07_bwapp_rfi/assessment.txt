@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What does RFI stand for? | MCQ | Remote File Inclusion | Reflected Form Injection | Recursive File Import | Remote Form Inclusion | Remote File Inclusion | 10
+What is the main goal in this challenge? | MCQ | Trigger client-side alert boxes only | Include and execute remote server-side content | Reset the admin password | Read cookies from the browser | Include and execute remote server-side content | 10
+Which ATT&CK technique is mapped here? | MCQ | Command and Scripting Interpreter | Brute Force | Valid Accounts | Active Scanning | Command and Scripting Interpreter | 10
+What confirms successful exploitation? | MCQ | The server processes the remote content | The Docker daemon restarts | The app switches to HTTPS | The browser blocks the request | The server processes the remote content | 10
+Which default bWAPP credentials are used here? | MCQ | admin / password | bee / bug | test / test | root / bug | bee / bug | 10

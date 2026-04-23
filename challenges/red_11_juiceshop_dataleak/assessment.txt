@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the main goal of this challenge? | MCQ | Gain shell access | Extract sensitive information through an exposed API | Perform DNS tunneling | Force a browser redirect | Extract sensitive information through an exposed API | 10
+What tool is especially useful here? | MCQ | A packet radio modem | Browser developer tools or an interception proxy | A BIOS editor | A GPU miner | Browser developer tools or an interception proxy | 10
+What confirms successful exploitation? | MCQ | Sensitive records are returned by the API | The Docker daemon logs out | The app changes themes | A local zip file is deleted | Sensitive records are returned by the API | 10
+Which ATT&CK technique is mapped here? | MCQ | Data from Local System | Brute Force | Remote Services | Web Shell | Data from Local System | 10
+Which application is used for this lab? | MCQ | Juice Shop | DVWA | bWAPP | OpenCart | Juice Shop | 10

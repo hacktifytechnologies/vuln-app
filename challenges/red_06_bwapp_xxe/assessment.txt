@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What does XXE stand for? | MCQ | Cross XML Execution | XML External Entity | External XSS Engine | X-Entity Extraction | XML External Entity | 10
+What is the main objective in this challenge? | MCQ | Upload a web shell | Read sensitive files via XML parsing | Force a password reset | Enumerate Docker images | Read sensitive files via XML parsing | 10
+Which credential pair is used for bWAPP by default here? | MCQ | admin / password | bee / bug | root / root | guest / guest | bee / bug | 10
+What indicates successful exploitation? | MCQ | The login screen reloads | Sensitive file content appears in the response | The app opens a reverse shell automatically | The browser clears cookies | Sensitive file content appears in the response | 10
+Which ATT&CK technique is mapped here? | MCQ | File and Directory Discovery | Brute Force | Web Shell | Remote Services | File and Directory Discovery | 10

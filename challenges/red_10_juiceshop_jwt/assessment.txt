@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the primary objective of this challenge? | MCQ | Perform XXE | Forge or tamper with a JWT to gain elevated access | Read local files through LFI | Trigger CSRF on the login page | Forge or tamper with a JWT to gain elevated access | 10
+What artifact must the participant first obtain? | MCQ | A PHP upload form | A JWT token used by the app | A Docker Hub PAT | An SSH private key | A JWT token used by the app | 10
+What confirms successful exploitation? | MCQ | The browser shows a syntax error | Higher-privileged functionality becomes accessible | The app stops responding permanently | The login page disappears forever | Higher-privileged functionality becomes accessible | 10
+Which ATT&CK technique is mapped here? | MCQ | Valid Accounts | Web Shell | Brute Force | Active Scanning | Valid Accounts | 10
+Which application hosts this challenge? | MCQ | DVWA | bWAPP | Juice Shop | WordPress | Juice Shop | 10

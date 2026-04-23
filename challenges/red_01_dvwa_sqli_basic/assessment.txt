@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+Which DVWA module is exploited in this challenge? | MCQ | Brute Force | SQL Injection | Command Injection | CSRF | SQL Injection | 10
+Which security level should be selected before solving this challenge? | MCQ | Impossible | High | Low | Medium | Low | 10
+Which field is commonly used to submit the SQLi payload? | MCQ | Password | Comment | User ID | Cookie | User ID | 10
+What indicates successful exploitation? | MCQ | Page redirect to login | Multiple unauthorized records are returned | The app crashes | The server restarts | Multiple unauthorized records are returned | 10
+Which payload style is demonstrated here? | MCQ | Boolean-based SQL Injection | Time-based blind SQL Injection | Stored XSS | Path Traversal | Boolean-based SQL Injection | 10

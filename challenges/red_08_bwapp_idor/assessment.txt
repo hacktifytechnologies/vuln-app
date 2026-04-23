@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the main weakness in an IDOR challenge? | MCQ | Weak hashing | Predictable object references without proper authorization | Missing CSP | Broken gzip compression | Predictable object references without proper authorization | 10
+What is the usual exploitation method? | MCQ | Upload a shell | Modify the object identifier in the request | Change the HTTP method to TRACE | Replay a JWT signing request | Modify the object identifier in the request | 10
+Which ATT&CK technique is mapped here? | MCQ | Valid Accounts | Web Shell | Brute Force | Remote Services | Valid Accounts | 10
+What confirms successful exploitation? | MCQ | A JavaScript popup | Unauthorized object or user data is returned | Docker login succeeds | The page becomes blank | Unauthorized object or user data is returned | 10
+Which default credentials are used for this bWAPP lab? | MCQ | root / root | bee / bug | guest / guest | admin / admin | bee / bug | 10

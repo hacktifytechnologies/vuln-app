@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What is the primary objective of this challenge? | MCQ | Trigger CSRF | Upload and execute a web shell | Crack a JWT | Enumerate directories | Upload and execute a web shell | 10
+Which DVWA module is used? | MCQ | XSS Stored | File Upload | SQL Injection | CSP Bypass | File Upload | 10
+What confirms the uploaded file executed successfully? | MCQ | A browser alert appears | The server returns command output | The login page disappears | The application redirects to setup.php | The server returns command output | 10
+Which ATT&CK technique is mapped to this challenge? | MCQ | Web Shell | Brute Force | Valid Accounts | File and Directory Discovery | Web Shell | 10
+Why is the payload usually written as a PHP file? | MCQ | Because DVWA is a Python app | Because the web server interprets PHP on the target | Because browsers only accept PHP | Because JWT requires PHP | Because the web server interprets PHP on the target | 10

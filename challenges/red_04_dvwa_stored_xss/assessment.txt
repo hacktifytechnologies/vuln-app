@@ -1,0 +1,6 @@
+Question Text | Question Type | Option 1 | Option 2 | Option 3 | Option 4 | Correct Answer | Points
+What makes this XSS challenge 'stored'? | MCQ | The payload only runs in the browser console | The payload is saved by the application and executed later | The payload is encrypted before use | The payload is injected in an HTTP header | The payload is saved by the application and executed later | 10
+Which DVWA module is used? | MCQ | XSS (Stored) | Command Injection | CSRF | Open Redirect | XSS (Stored) | 10
+What is a simple proof-of-execution payload? | MCQ | <?php phpinfo(); ?> | <script>alert(1)</script> | ' OR '1'='1 | ../../etc/passwd | <script>alert(1)</script> | 10
+What confirms successful exploitation? | MCQ | Multiple DB rows are returned | A JavaScript action occurs when the page is viewed | A Docker container stops | The login cookie is deleted | A JavaScript action occurs when the page is viewed | 10
+Which ATT&CK technique is mapped here? | MCQ | Exploitation for Client Execution | Web Shell | Brute Force | Remote Services | Exploitation for Client Execution | 10
