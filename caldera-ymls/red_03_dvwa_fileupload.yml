@@ -1,12 +1,12 @@
-id: fd46cbcd-5db3-4ac0-9747-c1625a03f493
-name: HACKTIFY - Setup Juice Shop Recon
-description: Deploys the Juice Shop Recon environment for the red team participant.
-tactic: reconnaissance
-technique_id: T1595
-technique_name: Active Scanning
+id: 164eb99d-1ca0-4806-a673-15ac561d0df1
+name: HACKTIFY - Setup DVWA File Upload
+description: Deploys the DVWA File Upload environment for the red team participant.
+tactic: persistence
+technique_id: T1505.003
+technique_name: Web Shell
 executors:
   - name: sh
     platform: linux
-    command: rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_12_juiceshop_recon && chmod +x setup.sh && bash setup.sh
+    command: rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_03_dvwa_fileupload && chmod +x setup.sh && bash setup.sh
     payloads: []
     parsers: []
