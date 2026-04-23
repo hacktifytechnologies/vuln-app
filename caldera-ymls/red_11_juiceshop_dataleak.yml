@@ -1,17 +1,12 @@
-- name: 'HACKTIFY: Setup Juice Shop API Data Leak'
-  id: cf5f7f64-60d3-44de-8db1-9410d5331666
-  description: >-
-    Deploys the Juice Shop API Data Leak environment for the red team participant.
-  tactic: collection
-  technique_id: T1005
-  technique_name: 'Data from Local System'
-  singleton: true
-  repeatable: false
-  delete_payload: false
-  executors:
-    - name: sh
-      platform: linux
-      command: >
-        rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_11_juiceshop_dataleak && chmod +x setup.sh && bash setup.sh
-      cleanup: >
-        docker rm -f juiceshop-dataleak 2>/dev/null || true
+id: 7954b177-75c6-4a7e-91b8-0980b1177130
+name: HACKTIFY - Setup Juice Shop API Data Leak
+description: Deploys the Juice Shop API Data Leak environment for the red team participant.
+tactic: collection
+technique_id: T1005
+technique_name: Data from Local System
+executors:
+  - name: sh
+    platform: linux
+    command: rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_11_juiceshop_dataleak && chmod +x setup.sh && bash setup.sh
+    payloads: []
+    parsers: []
