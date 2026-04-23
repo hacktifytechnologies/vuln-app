@@ -7,6 +7,6 @@ technique_name: Active Scanning
 executors:
   - name: sh
     platform: linux
-    command: rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_12_juiceshop_recon && chmod +x setup.sh && bash setup.sh
+    command: rm -rf /opt/hacktify/vuln-app-runtime && git clone https://github.com/hacktifytechnologies/vuln-app-runtime.git /opt/hacktify/vuln-app-runtime && cd /opt/hacktify/vuln-app-runtime/red_12_juiceshop_recon && chmod +x setup.sh && bash setup.sh
     payloads: []
     parsers: []
