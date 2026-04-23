@@ -1,17 +1,12 @@
-- name: 'HACKTIFY: Setup DVWA Command Injection'
-  id: 168d927e-11f5-4bf1-9d16-0ff124be204f
-  description: >-
-    Deploys the DVWA Command Injection environment for the red team participant.
-  tactic: execution
-  technique_id: T1059
-  technique_name: 'Command and Scripting Interpreter'
-  singleton: true
-  repeatable: false
-  delete_payload: false
-  executors:
-    - name: sh
-      platform: linux
-      command: >
-        rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_02_dvwa_cmdi && chmod +x setup.sh && bash setup.sh
-      cleanup: >
-        docker rm -f dvwa-cmdi 2>/dev/null || true
+id: ac808322-ae00-421f-8fd7-04bb129cd49f
+name: HACKTIFY - Setup DVWA Command Injection
+description: Deploys the DVWA Command Injection environment for the red team participant.
+tactic: execution
+technique_id: T1059
+technique_name: Command and Scripting Interpreter
+executors:
+  - name: sh
+    platform: linux
+    command: rm -rf /opt/hacktify/vuln-app && git clone https://github.com/hacktifytechnologies/vuln-app.git /opt/hacktify/vuln-app && cd /opt/hacktify/vuln-app/challenges/red_02_dvwa_cmdi && chmod +x setup.sh && bash setup.sh
+    payloads: []
+    parsers: []
